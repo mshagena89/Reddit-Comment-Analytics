@@ -3,11 +3,6 @@ import csv
 import os.path
 
 
-#returns new comments from sub 
-#equivalent scraping visiting reddit.com/r/subreddit/comments (25 results)
-def GetCommentFromSubreddit(sub):
-    sub_object = r.get_subreddit(sub)
-    return sub_object.get_comments()
 
 
 ##checks for new comments on subreddit, and appends id, date, and text to output file
