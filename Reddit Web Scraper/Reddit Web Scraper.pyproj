@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ea8ee92e-045d-4b0e-acff-b00bd742cc1f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CSVhelpers.py</StartupFile>
+    <StartupFile>descriptivestats.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,10 +27,22 @@
     <Compile Include="CSVhelpers.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="descriptivestats.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Execution Scripts\r.Fantasy\6.23.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CommentFilters.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Execution Scripts\r.Fantasy\fantasyconfigs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Execution Scripts\r.Nfl\6.23.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Execution Scripts\r.Nfl\nflscrapeconfigs.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SentimentCalculator.py">
