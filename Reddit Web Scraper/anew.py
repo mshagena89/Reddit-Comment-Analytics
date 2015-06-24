@@ -1,15 +1,4 @@
-#!/usr/bin/python
-
-#- ANEW.PY -----------------------------------------------------------------#
-#  Routines to calulate average valence and arousal for one or more terms	#
-#  using the ANEW and Happiness sentiment dictionaries						#
-#																			#
-#- Modification History: ---------------------------------------------------#
-#  When:		Who:					Comments:							#
-#																			#
-#  28-Sep-14	Christopher G. Healey	Converted from Javascript			#
-#---------------------------------------------------------------------------#
-
+#module from http://www.csc.ncsu.edu/faculty/healey/maa-14/text/
 import math
 
 #  Import raw ANEW and Happiness dictionary data from term file
