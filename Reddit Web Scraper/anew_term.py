@@ -1,18 +1,6 @@
 #!/usr/bin/python
 
-#- ANEW_TERM.PY ------------------------------------------------------------#
-#  Raw term data with average valence and arousal for a set of terms from	#
-#  the ANEW and Happiness sentiment dictionaries, used by ANEW.PY for		#
-#  sentiment calculations													#
-#																			#
-#- Modification History: ---------------------------------------------------#
-#  When:		Who:					Comments:							#
-#																			#
-#  28-Sep-14	Christopher G. Healey	Converted from Javascript			#
-#---------------------------------------------------------------------------#
-
-#  ANEW terms w/word, stem, avg valence and arousal, stdev of valience
-#  and arousal, and number of evaluations
+#see http://www.csc.ncsu.edu/faculty/healey/maa-14/text/
 
 anew_word = {
   "abduction": {
